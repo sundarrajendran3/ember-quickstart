@@ -10,6 +10,7 @@ phases:
   build:
     commands:
       - echo Entered the build phase...
+      - npm install
   post_build:
     commands:
       - echo Entered the post_build phase...
